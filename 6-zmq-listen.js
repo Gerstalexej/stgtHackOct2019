@@ -5,6 +5,8 @@
 let zmq = require('zeromq')
 let sock = zmq.socket('sub')
 
+const shell = require('shelljs')
+
 // Connect to the devnet node's ZMQ port
 sock.connect('tcp://zmq.devnet.iota.org:5556')
 
@@ -51,6 +53,10 @@ sock.on('message', msg => {
       break
     case address: // Use the command line argument to subscribe.
       console.log(`I'm the TX you are looking for!`, data)
+	console.log ("Moving bot...")
+
+ 	shell.exec('./simKeyToRunRobot.sh')
+
       break
   }
 })
