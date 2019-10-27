@@ -1,0 +1,14 @@
+{
+  "name": "stgthackm2m",
+  "version": "1.0.0",
+  "description": "Stuttgart Hackathon Oct 2019. Showcasing M2M economy using Iota",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexej Gerstmaier",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/core": "^1.0.0-beta.21"
+  }
+}
