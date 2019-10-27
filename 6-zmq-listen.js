@@ -2,8 +2,8 @@
 // Listen to live transactions
 ///////////////////////////////
 
-let zmq = require('zeromq')
-let sock = zmq.socket('sub')
+const zmq = require('zeromq')
+const sock = zmq.socket('sub')
 
 const shell = require('shelljs')
 
