@@ -11,6 +11,6 @@
   "dependencies": {
     "@iota/core": "^1.0.0-beta.21",
     "shelljs": "^0.8.3",
-    "zeromq": "^5.1.1"
+    "zeromq": "^5.3.1"
   }
 }
